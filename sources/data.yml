@@ -1,0 +1,595 @@
+categories:
+- name: Models
+  subcategories:
+  - name: Fine tuning
+    items:
+    - name: huggingface/peft
+      homepage_url: https://github.com/huggingface/peft
+      repo_url: https://github.com/huggingface/peft
+      description: '🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.'
+      logo: cncf.svg
+    - name: eric-mitchell/direct-preference-optimization
+      homepage_url: https://github.com/eric-mitchell/direct-preference-optimization
+      repo_url: https://github.com/eric-mitchell/direct-preference-optimization
+      description: Reference implementation for DPO (Direct Preference Optimization)
+      logo: cncf.svg
+    - name: allenai/RL4LMs
+      homepage_url: https://github.com/allenai/RL4LMs
+      repo_url: https://github.com/allenai/RL4LMs
+      description: A modular RL library to fine-tune language models to human preferences
+      logo: cncf.svg
+  - name: Foundation model
+    items:
+    - name: facebookresearch/llama
+      homepage_url: https://github.com/facebookresearch/llama
+      repo_url: https://github.com/facebookresearch/llama
+      description: Inference code for Llama models
+      logo: cncf.svg
+    - name: QwenLM/Qwen
+      homepage_url: https://github.com/QwenLM/Qwen
+      repo_url: https://github.com/QwenLM/Qwen
+      description: The official repo of Qwen (通义千问) chat & pretrained large language
+        model proposed by Alibaba Cloud.
+      logo: cncf.svg
+    - name: lucidrains/denoising-diffusion-pytorch
+      homepage_url: https://github.com/lucidrains/denoising-diffusion-pytorch
+      repo_url: https://github.com/lucidrains/denoising-diffusion-pytorch
+      description: Implementation of Denoising Diffusion Probabilistic Model in Pytorch
+      logo: cncf.svg
+    - name: NVIDIA/Megatron-LM
+      homepage_url: https://github.com/NVIDIA/Megatron-LM
+      repo_url: https://github.com/NVIDIA/Megatron-LM
+      description: Ongoing research training transformer models at scale
+      logo: cncf.svg
+- name: Operations
+  subcategories:
+  - name: Model Serving
+    items:
+    - name: huggingface/text-generation-inference
+      homepage_url: https://github.com/huggingface/text-generation-inference
+      repo_url: https://github.com/huggingface/text-generation-inference
+      description: Large Language Model Text Generation Inference
+      logo: cncf.svg
+    - name: huggingface/text-embeddings-inference
+      homepage_url: https://github.com/huggingface/text-embeddings-inference
+      repo_url: https://github.com/huggingface/text-embeddings-inference
+      description: A blazing fast inference solution for text embeddings models
+      logo: cncf.svg
+    - name: janhq/jan
+      homepage_url: https://github.com/janhq/jan
+      repo_url: https://github.com/janhq/jan
+      description: Jan is an open source alternative to ChatGPT that runs 100% offline
+        on your computer. Multiple engine support (llama.cpp, TensorRT-LLM)
+      logo: cncf.svg
+    - name: TimDettmers/bitsandbytes
+      homepage_url: https://github.com/TimDettmers/bitsandbytes
+      repo_url: https://github.com/TimDettmers/bitsandbytes
+      description: Accessible large language models via k-bit quantization for PyTorch.
+      logo: cncf.svg
+    - name: horseee/LLM-Pruner
+      homepage_url: https://github.com/horseee/LLM-Pruner
+      repo_url: https://github.com/horseee/LLM-Pruner
+      description: '[NeurIPS 2023] LLM-Pruner: On the Structural Pruning of Large
+        Language Models. Support Llama-3/3.1, Llama-2, LLaMA,  BLOOM, Vicuna, Baichuan,
+        TinyLlama, etc.'
+      logo: cncf.svg
+    - name: kuleshov/minillm
+      homepage_url: https://github.com/kuleshov/minillm
+      repo_url: https://github.com/kuleshov/minillm
+      description: MiniLLM is a minimal system for running modern LLMs on consumer-grade
+        GPUs
+      logo: cncf.svg
+    - name: jmorganca/ollama
+      homepage_url: https://github.com/jmorganca/ollama
+      repo_url: https://github.com/jmorganca/ollama
+      description: Get up and running with Llama 3.2, Mistral, Gemma 2, and other
+        large language models.
+      logo: cncf.svg
+    - name: mit-han-lab/smoothquant
+      homepage_url: https://github.com/mit-han-lab/smoothquant
+      repo_url: https://github.com/mit-han-lab/smoothquant
+      description: '[ICML 2023] SmoothQuant: Accurate and Efficient Post-Training
+        Quantization for Large Language Models'
+      logo: cncf.svg
+    - name: pytorch-labs/gpt-fast
+      homepage_url: https://github.com/pytorch-labs/gpt-fast
+      repo_url: https://github.com/pytorch-labs/gpt-fast
+      description: Simple and efficient pytorch-native transformer text generation
+        in <1000 LOC of python.
+      logo: cncf.svg
+    - name: mit-han-lab/llm-awq
+      homepage_url: https://github.com/mit-han-lab/llm-awq
+      repo_url: https://github.com/mit-han-lab/llm-awq
+      description: '[MLSys 2024 Best Paper Award] AWQ: Activation-aware Weight Quantization
+        for LLM Compression and Acceleration'
+      logo: cncf.svg
+    - name: jncraton/languagemodels
+      homepage_url: https://github.com/jncraton/languagemodels
+      repo_url: https://github.com/jncraton/languagemodels
+      description: Explore large language models in 512MB of RAM
+      logo: cncf.svg
+    - name: dusty-nv/jetson-inference
+      homepage_url: https://github.com/dusty-nv/jetson-inference
+      repo_url: https://github.com/dusty-nv/jetson-inference
+      description: Hello AI World guide to deploying deep-learning inference networks
+        and deep vision primitives with TensorRT and NVIDIA Jetson.
+      logo: cncf.svg
+    - name: neuralmagic/deepsparse
+      homepage_url: https://github.com/neuralmagic/deepsparse
+      repo_url: https://github.com/neuralmagic/deepsparse
+      description: Sparsity-aware deep learning inference runtime for CPUs
+      logo: cncf.svg
+  - name: Monitoring
+    items:
+    - name: langfuse/langfuse
+      homepage_url: https://github.com/langfuse/langfuse
+      repo_url: https://github.com/langfuse/langfuse
+      description: '🪢 Open source LLM engineering platform: LLM Observability, metrics,
+        evals, prompt management, playground, datasets. Integrates with LlamaIndex,
+        Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 '
+      logo: cncf.svg
+    - name: nebuly-ai/nebuly
+      homepage_url: https://github.com/nebuly-ai/nebuly
+      repo_url: https://github.com/nebuly-ai/nebuly
+      description: A collection of libraries to optimise AI model performances
+      logo: cncf.svg
+    - name: labmlai/labml
+      homepage_url: https://github.com/labmlai/labml
+      repo_url: https://github.com/labmlai/labml
+      description: 🔎 Monitor deep learning model training and hardware usage from
+        your mobile phone 📱
+      logo: cncf.svg
+- name: Application Engineering
+  subcategories:
+  - name: Orchestrator
+    items:
+    - name: neuml/txtai
+      homepage_url: https://github.com/neuml/txtai
+      repo_url: https://github.com/neuml/txtai
+      description: 💡 All-in-one open-source embeddings database for semantic search,
+        LLM orchestration and language model workflows
+      logo: neuml_txtai.svg
+    - name: run-llama/llama_index
+      homepage_url: https://github.com/run-llama/llama_index
+      repo_url: https://github.com/run-llama/llama_index
+      description: LlamaIndex is a data framework for your LLM applications
+      logo: cncf.svg
+  - name: Frameworks
+    items:
+    - name: life4/textdistance
+      homepage_url: https://github.com/life4/textdistance
+      repo_url: https://github.com/life4/textdistance
+      description: 📐 Compute distance between sequences. 30+ algorithms, pure python
+        implementation, common interface, optional external libs usage.
+      logo: life4_textdistance.svg
+    - name: huggingface/safetensors
+      homepage_url: https://github.com/huggingface/safetensors
+      repo_url: https://github.com/huggingface/safetensors
+      description: Simple, safe way to store and distribute tensors
+      logo: huggingface_safetensors.svg
+    - name: axflow/axflow
+      homepage_url: https://axflow.dev
+      repo_url: https://github.com/axflow/axflow
+      description: The TypeScript framework for AI development
+      logo: cncf.svg
+    - name: ray-project/ray
+      homepage_url: https://github.com/ray-project/ray
+      repo_url: https://github.com/ray-project/ray
+      description: Ray is an AI compute engine. Ray consists of a core distributed
+        runtime and a set of AI Libraries for accelerating ML workloads.
+      logo: cncf.svg
+    - name: rustformers/llm
+      homepage_url: https://github.com/rustformers/llm
+      repo_url: https://github.com/rustformers/llm
+      description: '[Unmaintained, see README] An ecosystem of Rust libraries for
+        working with large language models'
+      logo: cncf.svg
+    - name: aallam/openai-kotlin
+      homepage_url: https://github.com/aallam/openai-kotlin
+      repo_url: https://github.com/aallam/openai-kotlin
+      description: OpenAI API client for Kotlin with multiplatform and coroutines
+        capabilities.
+      logo: aallam_openai-kotlin.svg
+    - name: ekzhu/datasketch
+      homepage_url: https://github.com/ekzhu/datasketch
+      repo_url: https://github.com/ekzhu/datasketch
+      description: MinHash, LSH, LSH Forest, Weighted MinHash, HyperLogLog, HyperLogLog++,
+        LSH Ensemble and HNSW
+      logo: cncf.svg
+    - name: HazyResearch/safari
+      homepage_url: https://github.com/HazyResearch/safari
+      repo_url: https://github.com/HazyResearch/safari
+      description: Convolutions for Sequence Modeling
+      logo: cncf.svg
+    - name: google-deepmind/tree
+      homepage_url: https://github.com/google-deepmind/tree
+      repo_url: https://github.com/google-deepmind/tree
+      description: tree is a library for working with nested data structures
+      logo: cncf.svg
+    - name: cg123/mergekit
+      homepage_url: https://github.com/cg123/mergekit
+      repo_url: https://github.com/cg123/mergekit
+      description: Tools for merging pretrained large language models.
+      logo: cncf.svg
+    - name: salesforce/CodeTF
+      homepage_url: https://github.com/salesforce/CodeTF
+      repo_url: https://github.com/salesforce/CodeTF
+      description: 'CodeTF: One-stop Transformer Library for State-of-the-art Code
+        LLM'
+      logo: cncf.svg
+    - name: ajndkr/lanarky
+      homepage_url: https://github.com/ajndkr/lanarky
+      repo_url: https://github.com/ajndkr/lanarky
+      description: The web framework for building LLM microservices
+      logo: cncf.svg
+    - name: gpuweb/gpuweb
+      homepage_url: https://github.com/gpuweb/gpuweb
+      repo_url: https://github.com/gpuweb/gpuweb
+      description: Where the GPU for the Web work happens!
+      logo: cncf.svg
+    - name: huggingface/diffusers
+      homepage_url: https://github.com/huggingface/diffusers
+      repo_url: https://github.com/huggingface/diffusers
+      description: '🤗 Diffusers: State-of-the-art diffusion models for image and audio
+        generation in PyTorch and FLAX.'
+      logo: cncf.svg
+    - name: ml-explore/mlx
+      homepage_url: https://github.com/ml-explore/mlx
+      repo_url: https://github.com/ml-explore/mlx
+      description: 'MLX: An array framework for Apple silicon'
+      logo: cncf.svg
+    - name: SqueezeAILab/LLMCompiler
+      homepage_url: https://github.com/SqueezeAILab/LLMCompiler
+      repo_url: https://github.com/SqueezeAILab/LLMCompiler
+      description: '[ICML 2024] LLMCompiler: An LLM Compiler for Parallel Function
+        Calling'
+      logo: cncf.svg
+    - name: TencentARC/GFPGAN
+      homepage_url: https://github.com/TencentARC/GFPGAN
+      repo_url: https://github.com/TencentARC/GFPGAN
+      description: GFPGAN aims at developing Practical Algorithms for Real-world Face
+        Restoration.
+      logo: cncf.svg
+    - name: THUDM/SwissArmyTransformer
+      homepage_url: https://github.com/THUDM/SwissArmyTransformer
+      repo_url: https://github.com/THUDM/SwissArmyTransformer
+      description: SwissArmyTransformer is a flexible and powerful library to develop
+        your own Transformer variants.
+      logo: cncf.svg
+    - name: NVIDIA/cutlass
+      homepage_url: https://github.com/NVIDIA/cutlass
+      repo_url: https://github.com/NVIDIA/cutlass
+      description: CUDA Templates for Linear Algebra Subroutines
+      logo: cncf.svg
+  - name: UserInterface
+    items:
+    - name: lencx/ChatGPT
+      homepage_url: https://github.com/lencx/ChatGPT
+      repo_url: https://github.com/lencx/ChatGPT
+      description: 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
+      logo: cncf.svg
+    - name: HazyResearch/meerkat
+      homepage_url: https://github.com/HazyResearch/meerkat
+      repo_url: https://github.com/HazyResearch/meerkat
+      description: 'Creative interactive views of any dataset. '
+      logo: cncf.svg
+    - name: smallcloudai/refact
+      homepage_url: https://github.com/smallcloudai/refact
+      repo_url: https://github.com/smallcloudai/refact
+      description: 'WebUI for Fine-Tuning and Self-hosting of Open-Source Large Language
+        Models for Coding '
+      logo: cncf.svg
+    - name: yihong0618/xiaogpt
+      homepage_url: https://github.com/yihong0618/xiaogpt
+      repo_url: https://github.com/yihong0618/xiaogpt
+      description: Play ChatGPT and other LLM with Xiaomi AI Speaker
+      logo: cncf.svg
+    - name: invoke-ai/InvokeAI
+      homepage_url: https://github.com/invoke-ai/InvokeAI
+      repo_url: https://github.com/invoke-ai/InvokeAI
+      description: Invoke is a leading creative engine for Stable Diffusion models,
+        empowering professionals, artists, and enthusiasts to generate and create
+        visual media using the latest AI-driven technologies. The solution offers
+        an industry leading WebUI, and serves as the foundation for multiple commercial
+        products.
+      logo: cncf.svg
+    - name: all-in-aigc/sorafm
+      homepage_url: https://github.com/all-in-aigc/sorafm
+      repo_url: https://github.com/all-in-aigc/sorafm
+      description: Sora AI Video Generator by Sora.FM
+      logo: cncf.svg
+    - name: gorilla-llm/gorilla-cli
+      homepage_url: https://github.com/gorilla-llm/gorilla-cli
+      repo_url: https://github.com/gorilla-llm/gorilla-cli
+      description: LLMs for your CLI
+      logo: cncf.svg
+    - name: oobabooga/text-generation-webui
+      homepage_url: https://github.com/oobabooga/text-generation-webui
+      repo_url: https://github.com/oobabooga/text-generation-webui
+      description: A Gradio web UI for Large Language Models.
+      logo: cncf.svg
+    - name: AbdBarho/stable-diffusion-webui-docker
+      homepage_url: https://github.com/AbdBarho/stable-diffusion-webui-docker
+      repo_url: https://github.com/AbdBarho/stable-diffusion-webui-docker
+      description: Easy Docker setup for Stable Diffusion with user-friendly UI
+      logo: cncf.svg
+    - name: anse-app/chatgpt-demo
+      homepage_url: https://github.com/anse-app/chatgpt-demo
+      repo_url: https://github.com/anse-app/chatgpt-demo
+      description: 'Minimal web UI for ChatGPT. '
+      logo: cncf.svg
+    - name: Shaunwei/RealChar
+      homepage_url: https://github.com/Shaunwei/RealChar
+      repo_url: https://github.com/Shaunwei/RealChar
+      description: 🎙️🤖Create, Customize and Talk to your AI Character/Companion in
+        Realtime (All in One Codebase!). Have a natural seamless conversation with
+        AI everywhere (mobile, web and terminal) using LLM OpenAI GPT3.5/4, Anthropic
+        Claude2, Chroma Vector DB, Whisper Speech2Text, ElevenLabs Text2Speech🎙️🤖
+      logo: cncf.svg
+    - name: gragland/chatgpt-chrome-extension
+      homepage_url: https://github.com/gragland/chatgpt-chrome-extension
+      repo_url: https://github.com/gragland/chatgpt-chrome-extension
+      description: A ChatGPT Chrome extension. Integrates ChatGPT into every text
+        box on the internet.
+      logo: cncf.svg
+    - name: abi/screenshot-to-code
+      homepage_url: https://github.com/abi/screenshot-to-code
+      repo_url: https://github.com/abi/screenshot-to-code
+      description: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
+      logo: cncf.svg
+    - name: shibing624/pycorrector
+      homepage_url: https://github.com/shibing624/pycorrector
+      repo_url: https://github.com/shibing624/pycorrector
+      description: pycorrector is a toolkit for text error correction. 文本纠错，实现了Kenlm，T5，MacBERT，ChatGLM3，Qwen2.5等模型应用在纠错场景，开箱即用。
+      logo: cncf.svg
+    - name: Canner/WrenAI
+      homepage_url: https://github.com/Canner/WrenAI
+      repo_url: https://github.com/Canner/WrenAI
+      description: 🚀 Open-source SQL AI Agent. A Text-to-SQL solution for your data!
+        🤘
+      logo: cncf.svg
+    - name: madawei2699/myGPTReader
+      homepage_url: https://github.com/madawei2699/myGPTReader
+      repo_url: https://github.com/madawei2699/myGPTReader
+      description: A community-driven way to read and chat with AI bots - powered
+        by chatGPT.
+      logo: cncf.svg
+    - name: codota/TabNine
+      homepage_url: https://github.com/codota/TabNine
+      repo_url: https://github.com/codota/TabNine
+      description: AI Code Completions
+      logo: cncf.svg
+  - name: Agentic Framework
+    items:
+    - name: nashsu/FreeAskInternet
+      homepage_url: https://github.com/nashsu/FreeAskInternet
+      repo_url: https://github.com/nashsu/FreeAskInternet
+      description: 'FreeAskInternet is a completely free, PRIVATE and LOCALLY running
+        search aggregator & answer generate using MULTI LLMs, without GPU needed.
+        The user can ask a question and the system will  make a multi engine search
+        and combine the search result to LLM and generate the answer based on search
+        results. It''s all FREE to use. '
+      logo: cncf.svg
+    - name: Yifan-Song793/RestGPT
+      homepage_url: https://github.com/Yifan-Song793/RestGPT
+      repo_url: https://github.com/Yifan-Song793/RestGPT
+      description: An LLM-based autonomous agent controlling real-world applications
+        via RESTful APIs
+      logo: cncf.svg
+    - name: princeton-nlp/SWE-agent
+      homepage_url: https://github.com/princeton-nlp/SWE-agent
+      repo_url: https://github.com/princeton-nlp/SWE-agent
+      description: '[NeurIPS 2024] SWE-agent takes a GitHub issue and tries to automatically
+        fix it, using GPT-4, or your LM of choice. It can also be employed for offensive
+        cybersecurity or competitive coding challenges.'
+      logo: cncf.svg
+    - name: ricklamers/gpt-code-ui
+      homepage_url: https://github.com/ricklamers/gpt-code-ui
+      repo_url: https://github.com/ricklamers/gpt-code-ui
+      description: An open source implementation of OpenAI's ChatGPT Code interpreter
+      logo: cncf.svg
+    - name: danielmiessler/fabric
+      homepage_url: https://github.com/danielmiessler/fabric
+      repo_url: https://github.com/danielmiessler/fabric
+      description: fabric is an open-source framework for augmenting humans using
+        AI. It provides a modular framework for solving specific problems using a
+        crowdsourced set of AI prompts that can be used anywhere.
+      logo: cncf.svg
+    - name: dot-agent/nextpy
+      homepage_url: https://github.com/dot-agent/nextpy
+      repo_url: https://github.com/dot-agent/nextpy
+      description: 🤖Self-Modifying Framework from the Future 🔮 World's First AMS
+      logo: cncf.svg
+    - name: irgolic/AutoPR
+      homepage_url: https://github.com/irgolic/AutoPR
+      repo_url: https://github.com/irgolic/AutoPR
+      description: Run AI-powered workflows over your codebase
+      logo: cncf.svg
+    - name: kantord/SeaGOAT
+      homepage_url: https://github.com/kantord/SeaGOAT
+      repo_url: https://github.com/kantord/SeaGOAT
+      description: local-first semantic code search engine
+      logo: cncf.svg
+    - name: fauxpilot/fauxpilot
+      homepage_url: https://github.com/fauxpilot/fauxpilot
+      repo_url: https://github.com/fauxpilot/fauxpilot
+      description: FauxPilot - an open-source alternative to GitHub Copilot server
+      logo: cncf.svg
+    - name: varunshenoy/GraphGPT
+      homepage_url: https://github.com/varunshenoy/GraphGPT
+      repo_url: https://github.com/varunshenoy/GraphGPT
+      description: Extrapolating knowledge graphs from unstructured text using GPT-3
+        🕵️‍♂️
+      logo: cncf.svg
+    - name: emilwallner/Screenshot-to-code
+      homepage_url: https://github.com/emilwallner/Screenshot-to-code
+      repo_url: https://github.com/emilwallner/Screenshot-to-code
+      description: A neural network that transforms a design mock-up into a static
+        website.
+      logo: cncf.svg
+    - name: kuafuai/DevOpsGPT
+      homepage_url: https://github.com/kuafuai/DevOpsGPT
+      repo_url: https://github.com/kuafuai/DevOpsGPT
+      description: Multi agent system for AI-driven software development. Combine
+        LLM with DevOps tools to convert natural language requirements into working
+        software. Supports any development language and extends the existing code.
+      logo: cncf.svg
+    - name: BAAI-Agents/Cradle
+      homepage_url: https://github.com/BAAI-Agents/Cradle
+      repo_url: https://github.com/BAAI-Agents/Cradle
+      description: The Cradle framework is a first attempt at General Computer Control
+        (GCC). Cradle supports agents to ace any computer task by enabling strong
+        reasoning abilities, self-improvment, and skill curation, in a standardized
+        general environment with minimal requirements.
+      logo: cncf.svg
+    - name: Significant-Gravitas/AutoGPT
+      homepage_url: https://github.com/Significant-Gravitas/AutoGPT
+      repo_url: https://github.com/Significant-Gravitas/AutoGPT
+      description: AutoGPT is the vision of accessible AI for everyone, to use and
+        to build on. Our mission is to provide the tools, so that you can focus on
+        what matters.
+      logo: cncf.svg
+    - name: activepieces/activepieces
+      homepage_url: https://github.com/activepieces/activepieces
+      repo_url: https://github.com/activepieces/activepieces
+      description: Your friendliest open source AI automation tool ✨ Workflow automation
+        tool 200+ integration / Enterprise automation tool / Zapier Alternative
+      logo: cncf.svg
+    - name: microsoft/JARVIS
+      homepage_url: https://github.com/microsoft/JARVIS
+      repo_url: https://github.com/microsoft/JARVIS
+      description: 'JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf'
+      logo: cncf.svg
+    - name: BloopAI/bloop
+      homepage_url: https://github.com/BloopAI/bloop
+      repo_url: https://github.com/BloopAI/bloop
+      description: bloop is a fast code search engine written in Rust.
+      logo: cncf.svg
+    - name: n4ze3m/page-assist
+      homepage_url: https://github.com/n4ze3m/page-assist
+      repo_url: https://github.com/n4ze3m/page-assist
+      description: Use your locally running AI models to assist you in your web browsing
+      logo: cncf.svg
+    - name: KillianLucas/open-interpreter
+      homepage_url: https://github.com/KillianLucas/open-interpreter
+      repo_url: https://github.com/KillianLucas/open-interpreter
+      description: A natural language interface for computers
+      logo: cncf.svg
+    - name: KnowledgeCanvas/knowledge
+      homepage_url: https://github.com/KnowledgeCanvas/knowledge
+      repo_url: https://github.com/KnowledgeCanvas/knowledge
+      description: Knowledge is a tool for saving, searching, accessing, exploring
+        and chatting with all of your favorite websites, documents and files.
+      logo: cncf.svg
+    - name: getcursor/cursor
+      homepage_url: https://github.com/getcursor/cursor
+      repo_url: https://github.com/getcursor/cursor
+      description: The AI Code Editor
+      logo: cncf.svg
+    - name: eli64s/readme-ai
+      homepage_url: https://github.com/eli64s/readme-ai
+      repo_url: https://github.com/eli64s/readme-ai
+      description: README file generator, powered by AI.
+      logo: cncf.svg
+    - name: BCG-X-Official/agentkit
+      homepage_url: https://github.com/BCG-X-Official/agentkit
+      repo_url: https://github.com/BCG-X-Official/agentkit
+      description: Starter-kit to build constrained agents with Nextjs, FastAPI and
+        Langchain
+      logo: cncf.svg
+    - name: Farama-Foundation/chatarena
+      homepage_url: https://github.com/Farama-Foundation/chatarena
+      repo_url: https://github.com/Farama-Foundation/chatarena
+      description: ChatArena (or Chat Arena) is a Multi-Agent Language Game Environments
+        for LLMs. The goal is to develop communication and collaboration capabilities
+        of AIs.
+      logo: cncf.svg
+    - name: FastAPI-MCP
+      homepage_url: https://github.com/tadata-org/fastapi_mcp
+      repo_url: https://github.com/tadata-org/fastapi_mcp
+      description: Expose your FastAPI endpoints as Model Context Protocol (MCP) tools,
+        with Auth!
+      logo: cncf.svg
+  - name: Prompt Engineering
+    items:
+    - name: danielmiessler/fabric
+      homepage_url: https://github.com/danielmiessler/fabric
+      repo_url: https://github.com/danielmiessler/fabric
+      description: fabric is an open-source framework for augmenting humans using
+        AI. It provides a modular framework for solving specific problems using a
+        crowdsourced set of AI prompts that can be used anywhere.
+      logo: cncf.svg
+    - name: microsoft/prompt-engine
+      homepage_url: https://github.com/microsoft/prompt-engine
+      repo_url: https://github.com/microsoft/prompt-engine
+      description: A library for helping developers craft prompts for Large Language
+        Models
+      logo: cncf.svg
+    - name: guidance-ai/guidance
+      homepage_url: https://github.com/guidance-ai/guidance
+      repo_url: https://github.com/guidance-ai/guidance
+      description: A guidance language for controlling large language models.
+      logo: cncf.svg
+    - name: stanfordnlp/dspy
+      homepage_url: https://github.com/stanfordnlp/dspy
+      repo_url: https://github.com/stanfordnlp/dspy
+      description: 'DSPy: The framework for programming—not prompting—foundation models'
+      logo: cncf.svg
+    - name: YiVal/YiVal
+      homepage_url: https://github.com/YiVal/YiVal
+      repo_url: https://github.com/YiVal/YiVal
+      description: Your Automatic Prompt Engineering Assistant for GenAI Applications
+      logo: cncf.svg
+    - name: f/awesome-chatgpt-prompts
+      homepage_url: https://github.com/f/awesome-chatgpt-prompts
+      repo_url: https://github.com/f/awesome-chatgpt-prompts
+      description: This repo includes ChatGPT prompt curation to use ChatGPT better.
+      logo: cncf.svg
+  - name: Evals
+    items:
+    - name: confident-ai/deepeval
+      homepage_url: https://github.com/confident-ai/deepeval
+      repo_url: https://github.com/confident-ai/deepeval
+      description: The LLM Evaluation Framework
+      logo: cncf.svg
+    - name: huggingface/evaluate
+      homepage_url: https://github.com/huggingface/evaluate
+      repo_url: https://github.com/huggingface/evaluate
+      description: '🤗 Evaluate: A library for easily evaluating machine learning models
+        and datasets.'
+      logo: cncf.svg
+    - name: embeddings-benchmark/mteb
+      homepage_url: https://github.com/embeddings-benchmark/mteb
+      repo_url: https://github.com/embeddings-benchmark/mteb
+      description: 'MTEB: Massive Text Embedding Benchmark'
+      logo: cncf.svg
+    - name: openai/grade-school-math
+      homepage_url: https://github.com/openai/grade-school-math
+      repo_url: https://github.com/openai/grade-school-math
+      description: ''
+      logo: cncf.svg
+    - name: THUDM/AgentBench
+      homepage_url: https://github.com/THUDM/AgentBench
+      repo_url: https://github.com/THUDM/AgentBench
+      description: A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24)
+      logo: cncf.svg
+    - name: rlancemartin/auto-evaluator
+      homepage_url: https://github.com/rlancemartin/auto-evaluator
+      repo_url: https://github.com/rlancemartin/auto-evaluator
+      description: Evaluation tool for LLM QA chains
+      logo: cncf.svg
+    - name: openai/prm800k
+      homepage_url: https://github.com/openai/prm800k
+      repo_url: https://github.com/openai/prm800k
+      description: 800,000 step-level correctness labels on LLM solutions to MATH
+        problems
+      logo: cncf.svg
+    - name: Azure/PyRIT
+      homepage_url: https://github.com/Azure/PyRIT
+      repo_url: https://github.com/Azure/PyRIT
+      description: The Python Risk Identification Tool for generative AI (PyRIT) is
+        an open access automation framework to empower security professionals and
+        machine learning engineers to proactively find risks in their generative AI
+        systems.
+      logo: cncf.svg
+
